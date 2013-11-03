@@ -1,0 +1,145 @@
+@charset "utf-8";
+/*------------------------------------------------------------------------------
+Name: Reddit
+Version: 2012-11-25
+Author: Hans Mogren
+Description:
+------------------------------------------------------------------------------*/
+/* Links */
+.side a,
+.side a:visited {
+	color: #369 !important;
+}
+body, .flat-vert.title {
+	font-family: 'Lucida Grande', sans-serif !important;
+}
+body {
+	float: left !important;
+	clear: both !important;
+	width: 100% !important;
+	border-bottom: 1em solid #dfd0a3 !important;
+	background-image: none !important;
+	line-height: 1.4 !important;
+}
+/* Colours */
+body, .side, .side > * {
+	background-color: #F8F6EE !important;
+}
+#sr-header-area .selected a, .flat-list .selected a {
+	color: #000 !important;
+}
+#header,
+#userbarToggle /*RES*/ {
+	background-color: #dfd0a3 !important;
+}
+.link, .linkinfo {
+	background-color: #F1EFE8 !important;
+}
+#sr-header-area .width-clip {
+	left: 10px !important;
+	right: 5px !important;
+}
+#header-bottom-right {
+	background-color: inherit !important;
+	color: #000 !important;
+}
+#header, .tabmenu a {
+	border-color: #000 !important;
+}
+.tabmenu a {
+	border-bottom: 0 !important;
+}
+.tabmenu li {
+	font-weight: normal !important;
+}
+.tabmenu li a {
+	background-color: #F3EDD3 !important;
+	color: #000 !important;
+}
+.side {
+	float: right;
+	margin: 0 !important;
+	padding: 1em !important;
+	border-bottom-left-radius: .5em !important;
+}
+.sidecontentbox .content {
+	border-color: #e2e0dc !important;
+}
+body > .content {
+	/*float: left !important;*/
+	float: none !important;
+	/*margin-right: 10px !important;*/
+	margin-right: 320px !important;
+	/*margin-left: 2% !important;*/
+	margin-left: 10px !important;
+	padding-top: 1em !important;
+	/*padding-right: 2% !important;*/
+	padding-bottom: 10em !important;
+	/*max-width: 70em !important;*/
+}
+body > .content > .sitetable,
+body > .content > .nextprev,
+body > .content > .commentarea,
+body > .content > .spacer {
+	width: 85% !important;
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+body > .content .nextprev {
+	text-align: right !important;
+}
+.link {
+	margin-bottom: 1em !important;
+	padding: 1em !important;
+	border-radius: 0.5em;
+}
+.link .rank {
+	margin-right: 1em !important;
+	color: #DEDEDE !important;
+}
+.link .title {
+	color: #1D78CC !important;
+	font-size: 125% !important;
+}
+.link .title:visited {
+	color: #888 !important;
+}
+/*.midcol {
+	display: none !important;
+}*/
+.footer-parent {
+	padding-top: 0 !important;
+	font-size: 1em !important;
+}
+.footer {
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+}
+.footer-parent:not(:hover), .footer-parent *:not(:hover) {
+	color: #bbb !important;
+}
+.footer .col {
+	height: auto !important;
+	margin: 0 3em 0 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+}
+.footer ul.flat-vert > li:not(.title) {
+	display: inline !important;
+	margin: 0 !important;
+}
+.footer ul.flat-vert > li:not(.title) + li {
+	margin-left: .5em !important;
+}
+.footer ul.flat-vert > .title {
+	font-size: 1em !important;
+	font-weight: bold !important;
+}
+.footer .bottommenu {
+	clear: both !important;
+}
+.comment .child {
+	margin-top: 2em !important;
+	border-color: #aaa !important;
+}

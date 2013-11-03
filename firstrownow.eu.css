@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*------------------------------------------------------------------------------
+Name: firstrowsports.eu.css
+Version: 2013-08-14
+Author: Hans Mogren
+Description:
+------------------------------------------------------------------------------*/
+body > div > div > *:not(:last-child),
+td[width='350'],
+*[id^=ad],
+h4,
+a[type],
+.shade,
+#ad_footer,
+#ad_overlay {
+	display: none !important;
+}

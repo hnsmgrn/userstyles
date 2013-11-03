@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------------------
+Name: kuklaskorner.com
+Version: 2008-09-29
+Author: Hans Mogren
+Description:
+-----------------------------------------------------------------------------*/
+#ultimate,
+#penultimate,
+#homeRightRight,
+.centerAd,
+.rightAd {
+	display: none !important;
+}
+#content p {
+	font-size: 12px !important;
+}

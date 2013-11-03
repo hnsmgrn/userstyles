@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import url(../user.css);
+/*------------------------------------------------------------------------------
+Name: tvtropes.org
+Version: 2011-06-06
+Author: Hans Mogren
+Description:
+------------------------------------------------------------------------------*/
+#wikimid > tbody > tr > td:first-child {
+	border-right: 24px solid #fff !important;
+}
+#wikimid {
+	margin-bottom: 2em;
+}
+#wikibody {
+	padding: 2em !important;
+	border: 1px solid rgb(229,229,229) !important;
+	background-color: rgb(249,249,249) !important;
+	color: #444 !important;
+}
+#wikibody {
+
+}
+#wikitext {
+	max-width: 50em !important;
+	font-family: 'calibri';
+	font-size: 1em;
+	line-height: 1.6;
+}
+#wikitext a:link {
+	color: #043a7f !important;
+}
+#wikitext a:visited {
+	color: #4D47AB !important;
+}

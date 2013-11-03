@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*------------------------------------------------------------------------------
+Name: expressen.se.css
+Version: 2013-06-02
+Author: Hans Mogren
+Description:
+------------------------------------------------------------------------------*/
+body {
+	overflow-x: hidden;
+}
+*[class^=adwr],
+.b-header__ads,
+.b-tv-teaser,
+.b-ad__caption
+a[href^='http://marketnews'] {
+	display: none !important;
+}

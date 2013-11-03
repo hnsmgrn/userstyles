@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*------------------------------------------------------------------------------
+Name: jonkopingsposten.se.css
+Version: 2013-11-01
+Author: Hans Mogren
+Description:
+------------------------------------------------------------------------------*/
+.ad,
+.ad-marker,
+*[class*="emediate"],
+.mfp-wrap,
+.mfp-bg {
+	display: none !important;
+}

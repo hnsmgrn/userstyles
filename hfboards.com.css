@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------------------
+Name: hfboards.com
+Version: 2012-04-09
+Author: Hans Mogren
+Description:
+-----------------------------------------------------------------------------*/
+#cravebar,
+*[id*='google_ads'],
+div.navbar_notice marquee,
+#promotion_container,
+body > a[name='top'] + table, /* logo, etc. */
+#forumsearch_menu + table,
+#inlinemodform + table /* below thread list */
+{
+    display: none !important;
+}
+#posts + div div.smallfont,
+#posts + div div.smallfont + table /* below post list */
+{
+    display: none !important;
+}
+#posts + div > div:first-child > div:first-child > table:first-child {
+	display: table !important;
+}
+div[id^='post_message_'] {
+    max-width: 50em !important;
+}
+/*a[id^=thread_title_][style='font-weight:bold'] {
+	font-weight: normal !important;
+	text-decoration: underline !important;
+}*/
+a[id^=thread_title_] {
+	text-decoration: underline !important;
+}
+/*td[id^=td_threadtitle_]:after {
+	content: attr(title) !important;
+	display: block;
+	padding: .2em 1em;
+	color: #666;
+	font-size: 80%;
+}*/

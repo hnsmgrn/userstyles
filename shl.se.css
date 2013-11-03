@@ -1,0 +1,11 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------------------
+Name: shl.se
+Version: 2013-09-24
+Author: Hans Mogren
+Description: shl.se, hv71.se
+-----------------------------------------------------------------------------*/
+.ramsesTopbarWrapper,
+.esTopTop {
+    display: none !important;
+}

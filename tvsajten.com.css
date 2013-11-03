@@ -1,0 +1,34 @@
+body.MAIN {
+	background-color: rgb(205,223,233);
+	background-image: none;
+}
+body > center > table {
+	width: 40em !important;
+}
+body > center > table,
+body > center > table > tbody,
+body > center > table > tbody > tr,
+body > center > table td.TB {
+	display: block !important;
+	box-sizing: border-box !important;
+}
+body > center > table tr:nth-child(even) {
+	display: none !important;
+}
+body > center > table td.TB {
+	float: left !important;
+	width: 33% !important;
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+}
+body > center > table td.TB > table {
+	margin: .25em;
+	padding: .25em;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+/*body > center > table td:not(.TB)*/
+body > center > table td.TB + td {
+	display: none !important;
+}

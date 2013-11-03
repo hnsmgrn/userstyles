@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------------------
+Name: klart.se
+Version: 2012-12-05
+Author: Hans Mogren
+Description:
+-----------------------------------------------------------------------------*/
+#advertisement-top,
+#advertisement-right-bottom,
+#top-box,
+#top-placement,
+#top,
+#totem,
+#leaderboard,
+#premium-box,
+#latest-photos,
+.ad-placement,
+.partner {
+	display: none !important;
+}
+#wrapper,
+#content {
+	width: 780px !important;
+}
+#content {
+	margin-left: 0 !important;
+}
+#content .content-main {
+	height: auto !important;
+}

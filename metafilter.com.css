@@ -1,0 +1,198 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------------------
+Name: metafilter.com
+Version: 2013-01-08
+Author: Hans Mogren
+Description:
+-----------------------------------------------------------------------------*/
+body {
+	color: #eee !important;
+	font-size: 12px !important;
+}
+#posts {
+	margin-right: 15% !important;
+	padding-left: 18% !important;
+	padding-right: 14% !important;
+}
+#posts,
+#page #menu,
+#page #sidemenu,
+#page .side {
+	margin-top: 5rem !important;
+}
+#page #deck {
+	margin-top: 0 !important;
+}
+#page #menu,
+#page .side,
+#page #sidemenu {
+	width: 15% !important;
+	margin-left: -15% !important;
+}
+#sidemenu .sidebar {
+	float: none !important;
+	width: auto !important;
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+	margin-left: 0 !important;
+}
+#posts h2 {
+	box-sizing: border-box !important;
+	position: relative !important;
+	width: 37% !important;
+	left: -37% !important;
+	margin: 0 !important;
+	padding: 0 1em 0 0 !important;
+	color: #efefef !important;
+	font-size: 1.5rem !important;
+	line-height: 1 !important;
+	text-align: right !important;
+}
+#posts h2 + .posttitle {
+	margin-top: -1.3rem !important;
+}
+#posts .post,
+#posts .copy {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#posts .post:after {
+	content: '✧ ✧ ✧' !important;
+	display: block !important;
+	margin: 1.75rem auto !important;
+	/*color: #93A9B3 !important;*/
+	color: inherit; !important;
+	opacity: .85 !important;
+	font-size: 70% !important;
+	text-align: center !important;
+	line-height: 1 !important;
+}
+#posts .post + br,
+.contentstyle > br {
+	display: none !important;
+}
+#posts .posttitle {
+	margin: 0 0 .3rem 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	font-family: Verdana, sans-serif !important;
+	font-size: 10pt !important;
+	line-height: 130% !important;
+}
+#posts .posttitle a {
+	color: #eee !important;
+/*	color: #efefef !important;
+	font-weight: 600 !important;*/
+}
+#posts .posttitle a:hover {
+	color: #fff !important;
+}
+/* The byline below the post. */
+#posts .smallcopy:last-child {
+	display: block !important;
+	/*margin-top: .24rem !important;*/
+	margin-top: .3rem !important;
+	line-height: 1.3 !important;
+}
+/* Hide silly welcome boxes. */
+#page .welcome,
+#welcomebox {
+	display: none !important;
+}
+/* Right side stuff */
+#page #menu,
+#page #sidemenu,
+#page .side {
+	float: right !important;
+}
+#page #menu > br,
+#page #sidemenu > br,
+#page .side > br {
+	display: none !important;
+}
+.sidebar {
+	padding: .75rem !important;
+	border: 0 !important;
+}
+.sidebar {
+	margin-top: 2rem !important;
+}
+#deck.sidebar {
+	margin-top: 0 !important;
+}
+.sidebar > *:first-child {
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+}
+.sidebar > *:last-child {
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+.sidebartext {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+/* Full width tabs */
+#maintab {
+	position: absolute !important;
+	right: 167px !important;
+	top: 50px !important;
+	float: right !important;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	border-bottom: 0 !important;
+}
+#maintab li.selected a {
+	position: static !important;
+	padding-top: 3px !important;
+}
+/*-----------------------------------------------------------------------------
+Post page
+-----------------------------------------------------------------------------*/
+#page h1.posttitle,
+.contentstyle > h2 {
+	margin-top: 5.8rem !important;
+	color: #efefef !important;
+	font-family: Georgia, sans-serif !important;
+	font-size: 1.5rem !important;
+	line-height: 1 !important;
+}
+#page h1.posttitle .smallcopy {
+	display:  block !important;
+	margin-top: .3rem !important;
+}
+#page h1.posttitle,
+#page > .copy,
+#page > .comments,
+#page > #related {
+	width: auto !important;
+	margin-right: 27% !important;
+	margin-left: 20% !important;
+}
+#page > .posttitle + .copy
+#page .comments.best {
+	padding: 0 !important;
+	outline: 4px solid #335036 !important;
+}
+#sharelinks {
+	display: none !important;
+}
+/* Metatalk crapness */
+/*#yellowbar,#topline,#logo {display: none  !important}
+#search {display:none !Important;margin-top: 4px !important;padding-top: 0 !important;}*/
+a[name="content"] + #page > div[style]:first-child {
+	clear: none !important;
+	margin-top: 0 !important;
+}
+/* Timestamp in top right corner */
+#yellowbar {
+	color: #cccc00 !important;
+}
+/* Footer */
+#page + br + br {
+	height: 0 !important;
+
+}
+#footer p {
+	font-size: 1em !important;
+}

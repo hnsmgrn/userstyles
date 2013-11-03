@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------------------
+Name: aftonbladet.se
+Version: 2012-09-11
+Author: Hans Mogren
+Description:
+-----------------------------------------------------------------------------*/
+/*body {
+    overflow-x: hidden !important;
+}*/
+.abTopStreamer,
+.abHeaderTop,
+.abBoxAd,
+.abAdArea,
+*[id^="abAd"] {
+    display: none !important;
+}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import url(../user.css);
+/*------------------------------------------------------------------------------
+Name: football365.com
+Version: 2012-03-01
+Author: Hans Mogren
+Description:
+------------------------------------------------------------------------------*/
+.base-head-t1,
+*[class*=skybet],
+*[class^=base-ad],
+*[class*=betting] {
+	display: none !important;
+}
+
+.base-article-body p { 
+	font-size: 110% !important;
+	line-height: 1.5em !important;
+}

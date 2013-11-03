@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------------------
+Name: youtube.com
+Version: 2013-09-25
+Author: Hans Mogren
+Description:
+-----------------------------------------------------------------------------*/
+#watch-discussion/*,
+#cookie-notice,
+#cookieinfo-container*/ {
+	display: none !important;
+}
+
+#watch7-action-panels {
+	border-bottom: 1px solid #e6e6e6;
+}

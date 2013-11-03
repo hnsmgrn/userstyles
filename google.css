@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------------------
+Name: google
+Version: 2013-06-11
+Author: Hans Mogren
+Description:
+-----------------------------------------------------------------------------*/
+body,
+.mw {
+	background: #e2ddc5 !important;
+}
+#gbx1,
+#gbx2 {
+	background: #e2ddc5 !important;
+}
+#gbx1 {
+	border-bottom: 1px solid #eee;
+}
+#hdtbSum,
+#appbar {
+	border-bottom: 1px solid #eee;
+    background: #d3ceb8;
+}
+.clickable-dropdown-arrow {
+	background-color: transparent !important;
+}

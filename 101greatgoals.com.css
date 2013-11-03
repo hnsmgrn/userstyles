@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*------------------------------------------------------------------------------
+Name: 101greatgoals.com.css
+Version: 2013-08-17
+Author: Hans Mogren
+Description:
+------------------------------------------------------------------------------*/
+#fbPopUp,
+.fantasy-league-ad {
+	display: none !important;
+}
+.container {
+	opacity: 1 !important;
+}
